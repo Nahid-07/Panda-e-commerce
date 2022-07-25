@@ -13,7 +13,7 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -29,13 +29,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bags</a>
+                            <a class="nav-link" href="#bagpack">Bags</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -140,7 +140,7 @@
         </section>
         <!-- category end -->
         <!-- shoe section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card border-0 shadow-lg" >
@@ -176,7 +176,7 @@
         </section>
         <!-- shoe section end -->
         <!-- bagpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="bagpack">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card border-0 shadow-lg" >
@@ -212,6 +212,20 @@
         </section>
         <!-- bagpack section end -->
     </main>
+    <!-- footer start -->
+    <footer style="height: 300px;" class="container  bg-info d-flex justify-content-center align-items-center" id="subscribe">
+        <div>
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales, specials and more</p>
+            <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </footer>
+    <!-- footer end -->
     <!-- Bopotstrap javaScript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
